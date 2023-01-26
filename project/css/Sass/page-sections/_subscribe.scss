@@ -1,0 +1,27 @@
+.subscribe {
+  .title {
+    color: $dark-blue;
+    font-size: 18px;
+  }
+  .input {
+    input[type="text"] {
+      border: 0;
+      border-bottom: 1px solid white;
+      color: white;
+      &::placeholder {
+        color: white;
+      }
+      &:focus-visible {
+        outline: 0;
+      }
+    }
+  }
+  button {
+    color: $yellow-color;
+    background-color: $dark-blue;
+    &:hover {
+      color: $yellow-color;
+      background-color: $red-color;
+    }
+  }
+}

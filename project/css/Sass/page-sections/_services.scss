@@ -1,0 +1,31 @@
+section.services {
+  .sev-card {
+    .icons {
+      height: 200px;
+      .number {
+        position: absolute;
+        @extend %center;
+        font-size: 12rem;
+        color: $sec-color;
+      }
+      .ico {
+        position: absolute;
+        bottom: 1rem;
+        @extend %centerX;
+        font-size: 4rem;
+        color: $light-green;
+      }
+    }
+  }
+}
+.main-title {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 120px;
+    height: 3px;
+    background-color: $title-color;
+    @extend %centerX;
+  }
+}

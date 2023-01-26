@@ -1,0 +1,6 @@
+.project {
+  background-color: $dark-blue;
+  button {
+    @extend %button-design;
+  }
+}

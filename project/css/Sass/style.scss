@@ -1,0 +1,38 @@
+//var colors
+$dark-blue: #19283f;
+$light-green: #33d1cc;
+$yellow-color: #ffc400;
+$red-color: #ff3150;
+$title-color: #00c6bf;
+$sec-color: #eff7fa;
+$lang: "EN";
+@import "./helpers/placeholders";
+
+@import "./helpers/mixins";
+
+//import landing
+@import "./page-sections/landing";
+
+//import services
+@import "./page-sections/services";
+
+//import portfolio
+@import "./page-sections/portfolio";
+
+//import about
+@import "./page-sections/about-us";
+
+//import team
+@import "./page-sections/team";
+
+//import project
+@import "./page-sections/project";
+
+//import blog
+@import "./page-sections/blog";
+
+//import subscribe
+@import "./page-sections/subscribe";
+
+//import footer
+@import "./page-sections/footer";

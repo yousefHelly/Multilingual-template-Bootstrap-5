@@ -1,0 +1,15 @@
+section.team {
+  background-color: $sec-color;
+  .main-title {
+    &::after {
+      display: none;
+    }
+  }
+  .row {
+    .team-member {
+      h3 {
+        background-color: $light-green;
+      }
+    }
+  }
+}

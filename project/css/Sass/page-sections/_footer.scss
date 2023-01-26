@@ -1,0 +1,38 @@
+footer {
+  background-color: $dark-blue;
+  .Graphberry {
+    color: $light-green;
+  }
+  a.btn {
+    @extend %button-design;
+  }
+  .social-icons {
+    .facebook,
+    .twitter,
+    .instagram,
+    .github {
+      width: 20px;
+      height: 20px;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: $dark-blue;
+        color: $yellow-color;
+      }
+    }
+    .facebook {
+      background-color: #1877f2;
+    }
+    .twitter {
+      background-color: #1da1f2;
+    }
+    .instagram {
+      background-color: #405de6;
+    }
+    .github {
+      background-color: #4078c0;
+    }
+  }
+}
