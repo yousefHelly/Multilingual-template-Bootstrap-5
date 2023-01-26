@@ -29,13 +29,13 @@ window.onscroll = function(){
         scrollProgress.style.right = '0';
     }
     var scrollPer = (document.documentElement.scrollTop / fullHeight) * 100;
-    scrollProgress.style.width =scrollPer + '';
+    scrollProgress.style.width =scrollPer + '%';
     // focus the current section while scrolling
     sections.forEach(function(sec){
         if(scrollY>=sec.offsetTop && scrollY< sec.offsetHeight + sec.offsetTop){
             navItems.forEach(function(item){
                 item.classList.remove("active");
-                document.querySelector("a[href='" + sec.id + "']").classList.add("active");
+                document.querySelector('a[href = "#'+sec.id + '"]').classList.add("active");
             })
         }
     })
